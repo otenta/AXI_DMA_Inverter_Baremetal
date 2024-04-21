@@ -20,6 +20,7 @@ Now go to Review and Package and select "Package IP"
 Now this custom IP is ready to be used in our other project with the AXI DMA.
 
 **AXI DMA Connections to PS PL
+
 Create a new project. Select RTL project and click do not specify sources.
 Select your target board (ARTY Z7-20)
 And click finish
@@ -53,6 +54,7 @@ After that select Generate Bitstream.
 After this process completes, select File-> Export Hardware.
 
 **AXI DMA baremetal application
+
 Open VITIS IDE and create a new platform project.
 Select the HDL wrapper and create the project on baremetal.
 After tha create an application project using the platform project you just created.
@@ -64,6 +66,7 @@ In Main tab select Debug Type -> Standalone Application Debug
 
 
 **AXI DMA Debug
+
 Now go to Vivado and click on Hardware Manager
 Click on Open target and run the auto option.
 Click on Program Device option in Hardware Manager.
